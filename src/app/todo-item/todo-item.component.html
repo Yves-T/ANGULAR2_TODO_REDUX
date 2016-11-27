@@ -1,0 +1,9 @@
+<li class="list-group-item flexRow">
+  <span>{{todo.title}}</span>
+  <span (click)="toggle()" class="icon">
+      <i class="fa" [ngClass]="{'fa-check-square-o': todo.completed,'fa-square-o': !todo.completed}" aria-hidden="true"></i>
+  </span>
+  <span (click)="delete()" class="icon">
+      <i class="fa fa-trash" aria-hidden="true"></i>
+  </span>
+</li>

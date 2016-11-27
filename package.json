@@ -21,6 +21,7 @@
     "@angular/platform-browser-dynamic": "^2.1.0",
     "@angular/router": "^3.1.0",
     "core-js": "^2.4.1",
+    "redux": "^3.6.0",
     "rxjs": "5.0.0-beta.12",
     "ts-helpers": "^1.1.1",
     "zone.js": "^0.6.23"
@@ -31,6 +32,9 @@
     "@types/node": "^6.0.42",
     "angular-cli": "1.0.0-beta.20-4",
     "codelyzer": "~1.0.0-beta.3",
+    "eslint": "^3.11.0",
+    "eslint-config-angular": "^0.5.0",
+    "eslint-plugin-angular": "^1.4.1",
     "jasmine-core": "2.4.1",
     "jasmine-spec-reporter": "2.5.0",
     "karma": "1.2.0",

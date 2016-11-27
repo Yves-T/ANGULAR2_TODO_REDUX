@@ -1,0 +1,8 @@
+<ul class="nav nav-tabs">
+  <li class="nav-item" *ngFor="let item of filters">
+    <a (click)="changeFilter(item.filter)" class="nav-link"
+       [ngClass]="{active: item.filter === filter}">
+      {{item.description}}
+    </a>
+  </li>
+</ul>

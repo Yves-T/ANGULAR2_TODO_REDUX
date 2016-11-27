@@ -1,0 +1,14 @@
+.flexRow {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow span {
+  flex: 1 1 0;
+}
+
+.flexRow .icon {
+  flex: 0 0 auto;
+  padding-left: 10px;
+}
+

@@ -1,0 +1,5 @@
+<div class="form-group">
+  <label for="addTodo">Add todo</label>
+  <input #newTodo placeholder="todo title" id="addTodo" class="form-control"
+         (keyup.enter)="addTodo(newTodo.value); newTodo.value='' ">
+</div>

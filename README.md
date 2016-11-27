@@ -1,5 +1,7 @@
 # Todo
 
+Very simple todo app that demonstrates redux and angular 2 working together.
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.20-4.
 
 ## Development server
